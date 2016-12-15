@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Drumkit</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<div class="keys">
+	<div data-key="110" class="key">
+		<kbd>N</kbd>
+		<span class="instrument">KICK</span>
+	</div>
+	
+	<div data-key="106" class="key">
+			<kbd>J</kbd>
+			<span class="instrument">SNARE</span>
+	</div>
+		
+	<div data-key="102" class="key">
+			<kbd>F</kbd>
+			<span class="instrument">HI-HAT</span>
+	</div>
+	<div data-key="105" class="key">
+			<kbd>I</kbd>
+			<span class="instrument">BLIP</span>
+	</div>
+</div>
+
+<audio data-key="110" src="sounds/kick.wav"></audio>
+<audio data-key="106" src="sounds/clap.wav"></audio>
+<audio data-key="102" src="sounds/hihat.wav"></audio>
+<audio data-key="105" src="sounds/tink.wav"></audio>
+
+<script type="text/javascript" src="code.js"></script>
+</body>
+</html>
